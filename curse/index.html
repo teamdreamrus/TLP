@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>Course</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/raphael-min.js"></script>
+    <script type="text/javascript" src="js/dracula_graffle.js"></script>
+    <script type="text/javascript" src="js/dracula_graph.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<div class="container">
+  <form>
+    <div id="alpha">
+        <div class="form-group">
+            <label for="alphabet" class="badge badge-primary">Введите алфавит:</label>
+            <input placeholder="через запятую" type="text" id="alphabet" name="alphabet" class="form-control">
+        </div>
+        <button id="openSubs" type="button" class="btn btn-outline-primary btn-lg">Next step</button>
+      </div>
+        <div id="substrings">
+
+ 
+        <div class="form-group">
+          <label for="substring1" class="badge badge-dark">Введите начальную подстроку:</label>
+          
+          <input type="text" placeholder="" id="substring1" name="one" class="form-control">
+          <small id="sub1help" class="form-text text-muted">Эта строка не входит в алфавит</small>
+      </div>
+   
+   
+       <div class="form-group">
+          <label for="substring2" class="badge badge-dark">Введите конечную подстроку:</label>
+          <input type="text" placeholder="" id="substring2" name="two" class="form-control">
+          <small id="sub2help" class="form-text text-muted">Эта строка не входит в алфавит</small>
+       </div> 
+       <small id="" class="form-text text-muted">Не стоит вводить слишком длинные подстроки, ваш компьютер не выдержит такого)</small>
+            <button id="start" type="button" class="btn btn-outline-primary btn-lg">Next step</button>
+        </div>
+        <div id="chains">
+            <div class="form-group">
+                <label for="substring2" class="badge badge-dark">Введите цепочки на проверку:</label>
+                <textarea rows=5 type="text" placeholder="разделение цепочек по клавише Enter" id="textChains" name="chainss" class="form-control"></textarea>
+                <small id="sub1Chains" class="form-text text-muted"></small>
+             </div> 
+             <button id="drow" type="button" class="btn btn-outline-primary btn-lg">Show results</button>
+        </div>
+
+        
+
+  </form>
+</div>
+<div class="container">
+    <label for="resultCheck">result chains check</label>
+    <div id="resultCheck">
+
+    </div>
+</div>
+  
+ 
+ 
+<div id="canvas"></div>
+
+<script language="javascript" type="text/javascript">
+
+
+</script>
+
+</body>
+</html>

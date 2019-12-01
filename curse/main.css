@@ -1,0 +1,12 @@
+tspan{
+    font-size:20px;
+  }
+.unvisible{
+    display: none;
+}
+.visible{
+    display: block;
+}
+.invalid{
+    border: 1px solid red;
+}

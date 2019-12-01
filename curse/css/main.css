@@ -1,0 +1,9 @@
+tspan{
+    font-size:20px;
+  }
+#canvas{
+    weight: 100%;
+}
+#resultCheck{
+    white-space: pre-line;
+}
